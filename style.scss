@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: rgb(161, 243, 243);
+    display: flex; // ativa as caixas flexiveis 
+    justify-content:center ; // FLEX-START é o padrão, os itens são postos no começo do eixo principal(vertical)...   FLEX-END os itens são postos no final do eixo principal...  FLEX-CENTER os items são postos no meio do eixo principal
+    justify-content:space-around ; // SPACE-AROUND o primeiro espaço vazio e o ultimo são iguais..  SPACE-EVENLY o mesmo espaçamento entre os itens.. SPACE-BETWEEN o primeiro fica no começo do eixo e o ultimo fica no final do eixo 
+    height: 15vh;
+    align-items:center ; //FLEX-START  padrão! os itens são postos no começo do eixo y(vertical)..  FLEX-END os itens são postos no fim do eixo y...  FLEX-CENTER os itens são postos mo meio do eixo y..
+}
+
+h1{
+    border: solid red;
+
+}
+nav{
+    border: solid rgb(6, 240, 6);
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: blueviolet;
+}
