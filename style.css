@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -12,26 +13,24 @@ header {
   height: 15vh;
   align-items: center;
 }
-
-.caixaLogo {
+header .caixaLogo {
   display: flex;
   justify-content: space-evenly;
   width: 20%;
   align-items: center;
   margin-right: 25rem;
 }
-.caixaLogo h1 {
+header .caixaLogo h1 {
   font-size: 2rem;
   margin-right: 50px;
 }
-
-nav {
+header nav {
   display: flex;
   justify-content: space-around;
   width: 40%;
   align-items: center;
 }
-nav a {
+header nav a {
   text-decoration: none;
   font-size: 1.5rem;
   color: #4b5563;
@@ -46,62 +45,88 @@ nav a {
   border-radius: 6px;
 }
 
-.primeieaSection {
-  border: solid red;
+.primeiraSection {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
-  height: 60vh;
+  height: 70vh;
+  margin-top: 3rem;
 }
-.primeieaSection section {
-  border: solid green;
-  height: 60vh;
+.primeiraSection section {
+  height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  gap: 1rem;
+  align-items: center;
+  width: 85%;
 }
-.primeieaSection section h2 {
+.primeiraSection section h2 {
   font-size: 3.75rem;
   font-weight: 700;
-  width: 55%;
-  border: red;
+  font-family: Poppins;
+  width: 65%;
 }
-.primeieaSection section p {
+.primeiraSection section p {
   font-size: 1.25rem;
-  width: 50%;
-  border: solid blue;
+  width: 65%;
+  font-weight: 400;
+  color: #4B5563;
 }
-
-.boxBtnsPrimeiraSection {
-  border: solid purple;
-  width: 50%;
+.primeiraSection .boxBtnsPrimeiraSection {
+  width: 80%;
+  height: 6rem;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
-.boxBtnsPrimeiraSection button {
+.primeiraSection .boxBtnsPrimeiraSection .btnAdquirir {
+  border: solid 1px #2563EB;
+  background-color: #ffffff;
+  width: 15rem;
+  height: 3rem;
+  align-items: center;
+  border-radius: 0.3rem;
+}
+.primeiraSection .boxBtnsPrimeiraSection .btnDoar {
+  width: 15rem;
+  height: 3rem;
+  align-items: flex-start;
+  border-radius: 0.3rem;
+}
+.primeiraSection .boxBtnsPrimeiraSection button {
+  background-color: #16a34a;
+  text-align: center;
+  align-items: center;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 30px 40px;
+}
+.primeiraSection .imagemCoraçaoCircuito {
+  padding-right: 4em;
+  max-height: 125%;
+  display: flex;
+  max-width: 100%;
 }
 
 .dadosNumericos {
-  border: solid red;
   background-color: #f3f5f8;
   display: flex;
   justify-content: space-around;
-  height: 20vh;
   align-items: center;
+  height: 25vh;
+  width: 60%;
 }
 .dadosNumericos div {
-  border: solid;
   width: 25%;
-  height: 10vh;
+  height: 15vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 .dadosNumericos div h2 {
   color: #21c05c;
+  font-size: 2.4rem;
 }
 
 .produtosDisponiveis {

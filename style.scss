@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
   }
 
    header{
@@ -17,7 +16,7 @@
     //responsivo
     //smartphone max.. 500px
     //@media (min-widht: ;) and (max-width: ;){}
-  }
+  
 
 
   .caixaLogo{
@@ -36,107 +35,172 @@
 }
 
   nav{
-   // border: solid rgb(243, 117, 14);
+    // border: solid rgb(243, 117, 14);
     display: flex;
     justify-content:space-around;
     width: 40%;
-    align-items: center;
+    align-items: center; 
+  
 
   a{
+   // background-color: deeppink;
     text-decoration: none;
     font-size: 1.5rem;
     color: #4b5563;
+  }
+
   }
 }
 
 
 
-   .btnVerdeHeader{
+.btnVerdeHeader{
     background-color: #21c05c;
     color: #ffffff;
     font-size: 1.5rem;
     cursor: pointer;
     padding: 12px;
     border-radius: 6px;
+   }
+ 
 
-  }
 
+
+
+
+   
 
 
 
               //--------------primeira section - desktop------------//
 
-  .primeieaSection{
-    border: solid red;
+  .primeiraSection{
+    //border: solid rgb(233, 30, 30);
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+  //  justify-content: space-ev;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
+    margin-top: 3rem;
+
+  //margin: auto;
+  //padding: 1rem 0;
 
 
     section{
-        border: solid green;
-        //font-size:1,25rem;
-        height: 60vh;
+       // border: solid rgb(9, 241, 67);
+        height:70vh;
         display: flex;
-        flex-direction: column;
-        justify-content:space-evenly;
-
-
+        flex-direction:column;
+        justify-content: space-around;
+        gap: 1rem;
+        align-items: center;
+        width: 85%;
 
         h2{
+           // background-color: lightseagreen;
             font-size:3.75rem;
             font-weight: 700;
-            width: 55%;
-            border: red;
-
-        }
+            font-family: Poppins;
+            width: 65%;
+            
+          //display: flex;
+          //flex-direction: column;
+          //justify-content: space-evenly;
+          }
 
         p{
-            font-size: 1.25rem;
-            width: 50%;
-            border: solid blue;
+          //background-color: skyblue;            
+          font-size: 1.25rem;
+          width: 65%;
+          font-weight: 400;
+          color: #4B5563;
         }
       }
-    }
-
-
-   .boxBtnsPrimeiraSection{
-        border: solid purple;
-        width: 50%;
+    
+      
+    
+    .boxBtnsPrimeiraSection{
+        //border: solid purple;
+        width: 80%;
+        height:6rem;
         display: flex;
+        align-items: center;
         justify-content: space-around;
+      //text-align: center;
+      //height: 6rem;
+      
 
+      .btnAdquirir{
+        border: solid 1px #2563EB;
+        background-color: #ffffff;
+            width: 15rem;
+            height: 3rem;
+            //text-align: center;
+            align-items: center;
+            border-radius: .3rem;
+      }
 
+      .btnDoar{
+        width: 15rem;
+        height: 3rem;
+        align-items: flex-start;
+        border-radius: .3rem;
+      
+      }
+
+        
         button{
-            cursor: pointer;
-            padding: 10px 20px;
-            // width  heigth
+          background-color: #16a34a;
+          text-align: center;
+          align-items: center;
+          cursor: pointer;
+          padding: 30px 40px;
+        
         }
+      }
+    
+    .imagemCoraçaoCircuito{
+   // background-color: #4b5563;
+    padding-right: 4em;
+    max-height: 125%;
+    display: flex;
+    max-width: 100%;
+  
     }
+}
+  
+  
+
+  
+      
+    
 
 
 
+
+//------section Dados Numericos--------//
     .dadosNumericos{
-      border: solid red;
+      //border: solid red;
       background-color: #f3f5f8;
       display: flex;
       justify-content: space-around;
-      height: 20vh;
-      align-items:center ;
-
+      align-items: center;
+      height: 25vh;
+      width: 60%;
 
       div{
-        border: solid;
+       // border: solid;
         width: 25%;
-        height: 10vh;
+        height: 15vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
 
         h2{
           color: #21c05c;
+          font-size: 2.4rem;
 
         }
       }
