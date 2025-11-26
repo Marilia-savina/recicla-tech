@@ -109,22 +109,27 @@ header nav a {
 }
 
 .dadosNumericos {
+  padding-top: 3rem;
+}
+.dadosNumericos section {
+  border: solid rgb(228, 214, 17);
   background-color: #f3f5f8;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 25vh;
-  width: 60%;
+  width: 100%;
 }
-.dadosNumericos div {
-  width: 25%;
+.dadosNumericos section div {
+  border: solid;
+  width: 50%;
   height: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.dadosNumericos div h2 {
+.dadosNumericos section div h2 {
   color: #21c05c;
   font-size: 2.4rem;
 }
